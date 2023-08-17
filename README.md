@@ -49,10 +49,38 @@ Table contents:
 * Person: The name of the person or employee.
 * Region: The region where the person is located.
 
+## Visualization include:
+
+Creating an interactive sales report involves multiple steps, including data cleaning, visualization, and creating interactive elements. Given the complexity and detail required for each step, I'll provide a high-level overview of how to approach this project:
+
+1. Data Cleaning:
+
++ Remove duplicate records, if any.
++ Handle missing values by imputing or removing them based on the specific context.
++ Standardize formats of dates, numbers, and text fields.
+
+2. Segment Visuals using Country, Region, Market:
+
++ Use slicers or filters to allow users to segment data based on country, region, and market.
++ Create visuals such as bar charts, line charts, and maps that respond dynamically to slicer selections.
+
+3. Analyze Percentage of Shipping by Ship Mode:
+
++ Create a measure for total shipments and shipping percentage.
++ Use pie charts or stacked column charts to display the percentage of shipping modes.
+
+4. Visualize Sales by City, States, Region, and Market:
+
++ Create tables or charts to display sales metrics based on the desired segmentation (city, state, region, market).
++ Utilize drill-through functionality to provide detailed information when users interact with data points.
+
+5. Create Tables for Visualizations:
+
+Create separate tables for each visualization, displaying key metrics based on different segments.
 
 
 
-# Result
+#### Result
 
 ![Powerbi_Result_](https://github.com/Ameena-Farzana/PowerBi_Global_Super_Store_Project/assets/121862099/c2a2e5a5-2eca-4a33-b14e-75ed9fa0becf)
 
